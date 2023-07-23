@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useAppDispatch } from "../../../app/hooks"
 import { Task, updateTaskAsync } from "../task-slice"
-import { BsFillPencilFill } from "react-icons/Bs"
+import { BsFillPencilFill } from "react-icons/bs"
 import "./task-item.css"
 
 type Props = {
