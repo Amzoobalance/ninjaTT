@@ -1,0 +1,65 @@
+.task-item {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem 0.5rem;
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 0.5rem rgba(0,0,0, 0.2);
+    background: #fafafa;
+}
+ 
+.author {
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    }
+.task-info {
+    width: 87%;
+}
+
+.body {
+    width: 100%;
+    margin-left: -3px;
+    border-radius: 0.5rem;
+    border: 0;
+    outline: none;
+    background: transparent;
+    resize: none;
+    font-family: sans-serif;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.checkbox > input {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 1rem;
+}
+
+.save-button {
+    border: 0;
+    border-radius: 0.5rem;
+    background: #34d399;
+    margin-top: 0.35rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+.reworked {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.reworked.show {
+    visibility: visible;
+}
+
+.reworked.hide {
+    visibility: hidden;
+}

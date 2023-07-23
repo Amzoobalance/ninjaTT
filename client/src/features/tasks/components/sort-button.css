@@ -1,0 +1,14 @@
+.sort-button {
+    display: block;
+    margin: 0 0.25rem;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0.25rem;
+    background: #e5e5e5;
+    padding: 0.1rem 0.25rem;
+    height: 1.5rem;
+}
+
+.sort-button.active {
+    background: #6ee7b7;
+}
